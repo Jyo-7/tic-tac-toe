@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+
+        <button class="start">Start the Game</button>
+
+        <dialog class="dialog">
+
+            <form class="form">
+
+                <input type="text" id="one" placeholder="Enter Player One Name" onfocus="this.select()" required>
+                <input type="text" id="two" placeholder="Enter Player Two Name" onfocus="this.select()" required>
+
+                <button class="btn">Submit</button>
+            </form>
+
+        </dialog>
+
+        <h2 class="turn"></h2>
+
+        <div class="board-content"></div>
+
+        <div class="footer">
+
+            <h2 class="result"></h2>
+            <div class="restart"></div>
+
+        </div>
+
+    </div>
+
     <script src="script.js"></script>
+    
 </body>
 </html>
